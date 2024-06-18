@@ -1,0 +1,98 @@
+{
+  "error": "ದೋಷ",
+  "headsUpInfo": "ಮಾಹಿತಿ",
+
+  "date.ago": "ಹಿಂದೆ",
+  "date.years": "ವರ್ಷಗಳು",
+  "date.months": "ತಿಂಗಳು",
+  "date.days": "ದಿನಗಳು",
+  "date.hours": "ಗಂಟೆಗಳು",
+  "date.minutes": "ನಿಮಿಷಗಳು",
+  "date.seconds": "ಸೆಕೆಂಡುಗಳು",
+
+  "cool.school": "ಕೂಲ್ ಶಾಲೆ",
+  "moto": "ಸರ್ವೋತ್ತಮ ಶಾಲೆ",
+
+  "navbar.home": "ಮುಖಪುಟ",
+  "navbar.contact": "ಸಂಪರ್ಕ",
+  "navbar.courses": "ಪಾಠಗಳು",
+  "navbar.blogs": "ಬ್ಲಾಗ್ಗಳು",
+  "navbar.login": "ಲಾಗಿನ್ ಮಾಡಿ",
+  "navbar.register": "ನೆರವಾಗಿರಿ",
+  "navbar.logout": "ಲಾಗ್ ಔಟ್",
+  "navbar.finish.register": "ನೆರವಾಗಿರಿ ಬದಿಗೆ",
+
+  "language.picker.kannada": "ಕನ್ನಡ",
+  "language.picker.english": "ಇಂಗ್ಲಿಷ್",
+
+  "admin.blogs": "ಬ್ಲಾಗ್ಗಳು",
+  "admin.categories": "ವರ್ಗಗಳು",
+  "admin.courses": "ಪಾಠಗಳು",
+  "admin.resources": "ಸಾಧನಗಳು",
+  "admin.subsections": "ಉಪ ವಿಭಾಗಗಳು",
+  "admin.users": "ಬಳಕೆದಾರರು",
+  "admin.table.name": "{{tableName}} ಸರಣಿ",
+  "admin.table.search": "ಹುಡುಕು (col=val//)",
+  "admin.no.records": "ಈಗಿನ ರೇಕಾರ್ಡುಗಳಿಲ್ಲ",
+  "admin.create.button": "ರಚಿಸಿ",
+  "admin.api.successful.create": "ಯಶಸ್ವಿಯಾಗಿ ಸೃಷ್ಟಿಸಲಾಗಿದೆ ರೇಕಾರ್ಡ್ ID=",
+  "admin.api.successful.update": "ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ ರೇಕಾರ್ಡ್ ID=",
+  "admin.api.successful.delete": "ಯಶಸ್ವಿಯಾಗಿ ಅಳಿಸಲಾಗಿದೆ ರೇಕಾರ್ಡ್ ID=",
+  "admin.api.confirm.delete": "ನೀವು ID={{recordId}} ಗೆ ಸೇರಿದ ರೇಕಾರ್ಡ್ ಅಳಿಸಲು ಖಚಿತರಾಗಿದ್ದೀರಾ?",
+  "admin.edit.save": "ಉಳಿಸು",
+  "admin.edit.title.editing": "ID={{recordId}} ರೇಕಾರ್ಡ್ ಸಂಪಾದನೆ",
+  "admin.edit.title.create": "ರೇಕಾರ್ಡ್ ರಚಿಸು",
+
+  "home.app.description": "ಉತ್ತಮ ಶಾಲೆಯಾಗಿ ಜಾತಿಗೆ ಸೇರಿದ ಶಿಕ್ಷಣ ಅನುಭವವನ್ನು ಪರಿವರ್ತಿಸುವಂತಹ ಡಿಜಿಟಲ್ ಶಿಕ್ಷಣ ಅನುಭವದಲ್ಲಿ ಸ್ವಾಗತಿಸಿ. ನಮ್ಮ ಆನ್ಲೈನ್ ಶಾಲೆಯ ಅಪರಿಮಿತ ಲಾಭಗಳನ್ನು ಅನುಭವಿಸಿ, ಶೈಕ್ಷಣಿಕ ಪ್ರವಾಸದ ಸುಲಭ ಅನುಭವವನ್ನು ಹುಡುಕಿ.",
+  "home.view.courses.button": "ಕೋರ್ಸ್ ಗಳನ್ನು ನೋಡಿ",
+  "home.get.started.button": "ಮೊದಲನೆ ಹೆಜ್ಜೆ",
+
+  "home.what.makes.it.cool": "ಇದನ್ನು ನಡೆಸುವುದು ಹೇಗೆ?",
+  "home.what.makes.it.cool.description": "ಇಲ್ಲಿದೆ 3 ವಿಶೇಷತೆಗಳು ಕೂಲ್ ಶಾಲೆಯನ್ನು ಎಲ್ಲಾ ವಿದ್ಯಾರ್ಥಿಗಳ ಮನಸ್ಸಿಗೆ ಬಹು ಆಕರ್ಷಣೀಯವಾಗಿ ಮಾಡುತ್ತದೆ.",
+  "home.read.more.button": "ಮತ್ತಷ್ಟು ಓದು",
+  "home.flexibility": "ಲವಚ್ಯತೆ",
+  "home.flexibility.description": "ನಮ್ಮ ಆನ್ಲೈನ್ ಶಾಲೆಯೊಂದಿಗೆ ಲವಚ್ಯವಾದ ಶಿಕ್ಷಣದ ಲಾಭಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ - ನೀವು ಯಾವ ಸಮಯದಲ್ಲಿ ಮತ್ತು ಎಲ್ಲಿ ಹೇಳುವುದಾದರೂ ಓದಿ.",
+  "home.personalization": "ವೈಯಕ್ತೀಕರಣ",
+  "home.personalization.description": "ನಿಮ್ಮ ಅಧ್ಯಯನ ಅನುಭವವನ್ನು ಮೆಚ್ಚಿಸಿ, ನಿಮ್ಮ ಆವಶ್ಯಕತೆಗಳಿಗೆ ಅನುಸಾರವಾಗಿ ನಿರ್ದಿಷ್ಟ ಪಾಠಗಳನ್ನು ಆರಿಸಿ.",
+
+  "footer.about": "ಸಮಾಧಾನಕ್ಕೆ",
+  "footer.services": "ಸೇವೆಗಳು",
+  "footer.contact": "ಸಂಪರ್ಕಿಸಿ",
+  "footer.privacy.policy": "ಗೌಪ್ಯತೆ ನೀತಿ",
+  "footer.terms.of.service": "ಸೇವಾ ನಿಯಮಗಳು",
+
+  "contact.email": "ಇಮೇಲ್",
+  "contact.phone": "ಫೋನ್",
+  "contact.address": "ವಿಳಾಸ",
+  "contact.send.message": "ಸಂದೇಶ ಕಳುಹಿಸಿ",
+
+  "blog.title": "ಬ್ಲಾಗ್",
+  "blog.author": "ರಚಯಿತೆ",
+  "blog.published.on": "ಹೊರಡಿಸಲಾಗಿದೆ",
+  "blog.read.more": "ಹೆಚ್ಚು ಓದಿ",
+
+  "course.title": "ಪಾಠಗಳು",
+  "course.instructor": "ಶಿಕ್ಷಕ",
+  "course.duration": "ಅವಧಿ",
+  "course.students.enrolled": "ಹೊರಡಿಸಿದ ವಿದ್ಯಾರ್ಥಿಗಳು",
+
+  "login.username": "ಬಳಕೆದಾರ ಹೆಸರು",
+  "login.password": "ಪಾಸ್‌ವರ್ಡ್",
+  "login.forgot.password": "ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿದ್ದೀರಾ?",
+  "login.sign.in": "ಸೈನ್ ಇನ್",
+
+  "register.username": "ಬಳಕೆದಾರ ಹೆಸರು",
+  "register.email": "ಇಮೇಲ್",
+  "register.password": "ಪಾಸ್‌ವರ್ಡ್",
+  "register.confirm.password": "ಪಾಸ್‌ವರ್ಡ್ ದೃಢಪಡಿಸಿ",
+  "register.sign.up": "ಸೈನ್ ಅಪ್",
+
+  "logout.message": "ನೀವು ಯಶಸ್ವಿಯಾಗಿ ಲಾಗ್ ಔಟ್ ಆಗಿದ್ದೀರಿ.",
+
+  "error.404": "404 - ಪುಟ ಕಂಡುಬರಲಿಲ್ಲ",
+  "error.404.message": "ಕ್ಷಮಿಸಿ, ನೀವು ಹುಡುಕುತ್ತಿರುವ ಪುಟ ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಇತರ ಪ್ರಯತ್ನ ಮಾಡಿ ಅಥವಾ ಮುಂದಿನಲ್ಲಿ ಪ್ರವೇಶಿಸಿ.",
+
+  "error.500": "500 - ಆಂತರಿಕ ದೋಷ",
+  "error.500.message": "ಕ್ಷಮಿಸಿ, ಆಂತರಿಕ ದೋಷವು ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ನಮ್ಮ ಟೀಮ್ ಗೆ ತಿಳಿಸಿ."
+}
+

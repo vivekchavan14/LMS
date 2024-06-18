@@ -1,0 +1,26 @@
+@import 'src/styles/style.scss';
+
+.special_cource {
+  @media #{$small_mobile} {
+    padding: 70px 0px 50px;
+  }
+
+  @media #{$large_mobile} {
+    padding: 70px 0px 50px;
+  }
+
+  @media #{$tab_device} {
+    padding: 70px 0px 50px;
+  }
+
+  @media #{$medium_device} {
+  }
+}
+
+.special-courses.row {
+  row-gap: 20px;
+}
+
+.special-courses-pagination {
+  margin-bottom: 5vh;
+}

@@ -1,0 +1,20 @@
+// Enumeration representing possible different pages
+export enum PagesEnum {
+  Home = '/',
+  Contact = '/contact',
+  Login = '/login',
+  ForgottenPassword = '/forgotten-password',
+  Register = '/register',
+  Logout = '/logout',
+  FinishRegister = '/finish-register',
+  QuizCreate = '/quiz/create/:courseId/:subsectionId',
+  QuizStart = '/quiz/:id',
+  Courses = '/courses',
+  CoursesCreate = '/courses/create',
+  SingleCourse = '/courses/:id',
+  Blog = '/blog',
+  BlogCreate = '/blog/create',
+  SingleBlog = '/blog/:id',
+  Admin = '/admin',
+  NotFound = '/not-found',
+}

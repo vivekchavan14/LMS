@@ -1,0 +1,25 @@
+// Translation config file that allows us to add internationalization easily
+
+import translationBulgarian from './locales/bg/translation.json';
+import translationEnglish from './locales/en/translation.json';
+
+import i18next from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import { LanguageEnum } from './types/enums/LanguageEnum';
+
+export const defaultNS = 'main';
+export const resources = {
+  [LanguageEnum.ENGLISH]: {
+    main: translationEnglish,
+  },
+  [LanguageEnum.KANNADA]: {
+    main: translationBulgarian,
+  },
+} as const;
+
+i18next.use(initReactI18next).init({
+  lng: LanguageEnum.KANNADA,
+  ns: ['main'],
+  defaultNS,
+  resources,
+});

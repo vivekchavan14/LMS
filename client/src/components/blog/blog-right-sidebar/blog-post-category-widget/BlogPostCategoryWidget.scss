@@ -1,0 +1,35 @@
+@import 'src/styles/style.scss';
+
+.post_category_widget {
+  .cat-list {
+    li {
+      border-bottom: 1px solid #f0e9ff;
+      transition: all 0.3s ease 0s;
+      padding-bottom: 12px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      span {
+        font-size: 14px;
+        line-height: 20px;
+        color: #888888;
+
+        p {
+          margin-bottom: 0px;
+
+          &:hover,
+          &.selected {
+            color: $btn_bg;
+            cursor: pointer;
+          }
+        }
+      }
+
+      & + li {
+        padding-top: 15px;
+      }
+    }
+  }
+}
