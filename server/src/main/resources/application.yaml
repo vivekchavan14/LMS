@@ -1,11 +1,11 @@
 server:
   frontend:
-    baseUrl: ${FRONTEND_URL}
-    loginUrl: ${server.frontend.baseUrl}/login
-    finishRegisterUrl: ${server.frontend.baseUrl}/finish-register
-    forgottenPasswordUrl: ${server.frontend.baseUrl}/forgotten-password
+    baseUrl: http://localhost:3000/
+    loginUrl: http://localhost:3000/login
+    finishRegisterUrl: http://localhost:3000//finish-register
+    forgottenPasswordUrl: http://localhost:3000//forgotten-password
   backend:
-    baseUrl: ${BACKEND_URL}
+    baseUrl: http://localhost:8080
 
 spring:
   servlet:
@@ -13,12 +13,13 @@ spring:
       max-file-size: 20MB
       max-request-size: 20MB
   datasource:
-    url: jdbc:${MYSQL_URL}
-    username: ${MYSQLUSER}
-    password: ${MYSQLPASSWORD}
+    url: jdbc:mysql://localhost:3306/cool_school
+    username: root
+    password: 87658765
     driver-class-name: com.mysql.cj.jdbc.Driver
   flyway:
     enabled: true
+    locations: classpath:db/migration 
   jpa:
     hibernate:
       ddl-auto: update
