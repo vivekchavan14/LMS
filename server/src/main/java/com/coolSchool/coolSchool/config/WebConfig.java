@@ -22,12 +22,12 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry
-                .addMapping("/**") // Allow CORS for all endpoints
-                .allowedMethods("GET", "POST", "PUT", "DELETE") // Allowed HTTP methods
-                .allowedOrigins(frontendConfig.getBaseUrl()) // Allowed origins (frontend URL)
-                .allowCredentials(true); // Allow credentials (cookies, authorization headers)
+            .addMapping("/**") // Allow CORS for all endpoints
+            .allowedMethods("GET", "POST", "PUT", "DELETE") // Allowed HTTP methods
+            .allowedOrigins(frontendConfig.getBaseUrl()) // Allowed origins (frontend URL)
+            .allowCredentials(true); // Allow credentials (cookies, authorization headers)
     }
-
+    
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(localeChangeInterceptor());

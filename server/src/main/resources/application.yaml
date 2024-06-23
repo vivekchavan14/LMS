@@ -1,9 +1,9 @@
 server:
   frontend:
-    baseUrl: http://localhost:3000/
+    baseUrl: http://localhost:3000
     loginUrl: http://localhost:3000/login
-    finishRegisterUrl: http://localhost:3000//finish-register
-    forgottenPasswordUrl: http://localhost:3000//forgotten-password
+    finishRegisterUrl: http://localhost:3000/finish-register
+    forgottenPasswordUrl: http://localhost:3000/forgotten-password
   backend:
     baseUrl: http://localhost:8080
 

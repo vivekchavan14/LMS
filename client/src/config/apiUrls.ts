@@ -4,9 +4,9 @@ const baseApiUrl = process.env.REACT_APP_API_URL || '';
 const baseOAuthUrl = process.env.REACT_APP_OAUTH_URL || '';
 
 const adminPaths = Object.seal({
-  get: (pathName: string) => `${baseApiUrl}${pathName}/all`,
-  post: (pathName: string) => `${baseApiUrl}${pathName}/create`,
-  updateDelete: (pathName: string) => `${baseApiUrl}${pathName}`,
+  get: (pathName: string) => `${baseApiUrl}/${pathName}/all`,
+  post: (pathName: string) => `${baseApiUrl}/${pathName}/create`,
+  updateDelete: (pathName: string) => `${baseApiUrl}/${pathName}`,
 });
 
 const authPaths = Object.seal({
@@ -16,7 +16,7 @@ const authPaths = Object.seal({
   refreshTokenPath: '/auth/refresh-token',
   completeOAuth: `${baseApiUrl}/auth/complete-oauth`,
   refreshToken() {
-    return `${baseApiUrl}${this.refreshTokenPath}`;
+    return `${baseApiUrl}/auth${this.refreshTokenPath}`;
   },
   me: `${baseApiUrl}/auth/me`,
   forgotPassword: (email: string) =>
@@ -63,7 +63,7 @@ const filesPaths = Object.seal({
   getByUrl(url: string) {
     const imgArr = url.split('/');
     const fileName = imgArr[imgArr.length - 1];
-    return this.getByFilename(fileName);
+    return `${this.base}/${fileName}`;
   },
   upload() {
     return `${this.base}/upload`;
